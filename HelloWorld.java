@@ -7,14 +7,14 @@ public class HelloWorld {
         
         text.add(getH());
         text.add(gete());
-        text.add(getl());
-        text.add(getl());
+        text.add(getl1());
+        text.add(getl2());
         text.add(geto());
         text.add(getspace());
         text.add(getW());
         text.add(geto());
         text.add(getr());
-        text.add(getl());
+        text.add(getl3());
         text.add(getd());
         text.add(getexclamation_mark());
         
@@ -59,7 +59,7 @@ public class HelloWorld {
          return new String("r");
     }
     
-    public static String getl() {
+    public static String getl3() {
          return new String("l");
     }
     
