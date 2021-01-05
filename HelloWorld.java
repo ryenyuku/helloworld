@@ -6,17 +6,17 @@ public class HelloWorld {
         ArrayList<String> text = new ArrayList<String>();
         
         text.add(getH());
-        text.add(gete());
-        text.add(getl1());
-        text.add(getl2());
-        text.add(geto());
-        text.add(getspace());
+        text.add(getE());
+        text.add(getL1());
+        text.add(getL2());
+        text.add(getO());
+        text.add(getBlank());
         text.add(getW());
-        text.add(geto());
-        text.add(getr());
-        text.add(getl3());
-        text.add(getd());
-        text.add(getexclamation_mark());
+        text.add(getO2());
+        text.add(getR());
+        text.add(getL3());
+        text.add(getD());
+        text.add(getEnd());
         
         for (String theElement: text) {
             System.out.print(theElement);
@@ -24,50 +24,50 @@ public class HelloWorld {
     }
     
     public static String getH() {
-         return new String("H");
+         return "H";
     }
     
-    public static String gete() {
-         return new String("e");
+    public static String getE() {
+         return "e";
     }
     
-    public static String getl1() {
-         return new String("l");
+    public static String getL1() {
+         return "l";
     }
     
-    public static String getl2() {
-         return new String("l");
+    public static String getL2() {
+         return "l";
     }
     
-    public static String geto() {
-         return new String("o");
+    public static String getO() {
+         return "o";
     }
     
-    public static String getspace() {
-         return new String(" ");
+    public static String getBlank() {
+         return " ";
     }
     
-    public static String getw() {
-         return new String("w");
+    public static String getW() {
+         return "W";
     }
     
-    public static String geto() {
-         return new String("o");
+    public static String getO2() {
+         return "o";
     }
     
-    public static String getr() {
-         return new String("r");
+    public static String getR() {
+         return "r";
     }
     
-    public static String getl3() {
-         return new String("l");
+    public static String getL3() {
+         return "l";
     }
     
-    public static String getd() {
-         return new String("d");
+    public static String getD() {
+         return "d";
     }
     
-    public static String getexclamation_mark() {
-         return new String("!");
+    public static String getEnd() {
+         return "!";
     }
 }
