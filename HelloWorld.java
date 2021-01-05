@@ -2,26 +2,72 @@ import java.util.ArrayList;
 
 public class HelloWorld {
 
-     public static void main(String args[]) {
-         
+    public static void main(String args[]) {
         ArrayList<String> text = new ArrayList<String>();
         
-        text.add("H");
-        text.add("e");
-        text.add("l");
-        text.add("l");
-        text.add("o");
-        text.add(" ");
-        text.add("W");
-        text.add("o");
-        text.add("r");
-        text.add("l");
-        text.add("d");
-        text.add("!");
+        text.add(getH());
+        text.add(gete());
+        text.add(getl());
+        text.add(getl());
+        text.add(geto());
+        text.add(getspace());
+        text.add(getW());
+        text.add(geto());
+        text.add(getr());
+        text.add(getl());
+        text.add(getd());
+        text.add(getexclamation_mark());
         
         for (String theElement: text) {
             System.out.print(theElement);
         }
-        
-     }
+    }
+    
+    public static String getH() {
+         return new String("H");
+    }
+    
+    public static String gete() {
+         return new String("e");
+    }
+    
+    public static String getl1() {
+         return new String("l");
+    }
+    
+    public static String getl2() {
+         return new String("l");
+    }
+    
+    public static String geto() {
+         return new String("o");
+    }
+    
+    public static String getspace() {
+         return new String(" ");
+    }
+    
+    public static String getw() {
+         return new String("w");
+    }
+    
+    public static String geto() {
+         return new String("o");
+    }
+    
+    public static String getr() {
+         return new String("r");
+    }
+    
+    public static String getl() {
+         return new String("l");
+    }
+    
+    public static String getd() {
+         return new String("d");
+    }
+    
+    public static String getexclamation_mark() {
+         return new String("!");
+    }
 }
