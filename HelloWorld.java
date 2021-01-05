@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class HelloWorld {
 
     public static void main(String args[]) {
-        ArrayList<Object> text = new ArrayList<String>();
+        ArrayList<String> text = new ArrayList<String>();
         
         text.add(getH());
         text.add(getE());
@@ -19,11 +19,7 @@ public class HelloWorld {
         text.add(getEnd());
         
         for (String theElement: text) {
-            boolean h = true;
-            while(h) {
-                System.out.print((String)(String)(String)(String)theElement);
-                h = false;
-            }
+            System.out.print(theElement);
         }
     }
     
