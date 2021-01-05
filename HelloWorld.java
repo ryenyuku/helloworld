@@ -1,25 +1,28 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class HelloWorld {
 
     public static void main(String args[]) {
-        ArrayList<String> text = new ArrayList<String>();
-        
-        text.add(getH());
-        text.add(getE());
-        text.add(getL1());
-        text.add(getL2());
-        text.add(getO());
-        text.add(getBlank());
-        text.add(getW());
-        text.add(getO2());
-        text.add(getR());
-        text.add(getL3());
-        text.add(getD());
-        text.add(getEnd());
-        
-        for (String theElement: text) {
-            System.out.print(theElement);
+        Map<Long, String> charMap = new HashMap<>();
+        long idBucket = 0;
+
+        charMap.put(idBucket++, getH());
+        charMap.put(idBucket++, getE());
+        charMap.put(idBucket++, getL1());
+        charMap.put(idBucket++, getL2());
+        charMap.put(idBucket++, getO());
+        charMap.put(idBucket++, getBlank());
+        charMap.put(idBucket++, getW());
+        charMap.put(idBucket++, getO2());
+        charMap.put(idBucket++, getR());
+        charMap.put(idBucket++, getL3());
+        charMap.put(idBucket++, getD());
+        charMap.put(idBucket, getEnd());
+
+        for (long a = 0; a <= idBucket; a++) {
+            System.out.print(charMap.get(a));
         }
     }
     
