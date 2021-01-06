@@ -11,39 +11,26 @@ public class HelloWorld {
         int f;
         
         ArrayList<Object> text = new ArrayList<>();
-        Map<String, Object> nocontext = new HashMap<>();
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
-        nocontext = new HashMap<>(nocontext);
         
-        text.add(getH());
-        text.add(getE());
-        text.add(getL1());
-        text.add(getL2());
-        text.add(getO());
-        text.add(getBlank());
-        text.add(getW());
-        text.add(getO2());
-        text.add(getR());
-        text.add(getL3());
-        text.add(getD());
-        text.add(getEnd());
+        Map<Long, String> charMap = new HashMap<>();
+        long idBucket = 0;
+
+        charMap.put(idBucket++, getH());
+        charMap.put(idBucket++, getE());
+        charMap.put(idBucket++, getL1());
+        charMap.put(idBucket++, getL2());
+        charMap.put(idBucket++, getO());
+        charMap.put(idBucket++, getBlank());
+        charMap.put(idBucket++, getW());
+        charMap.put(idBucket++, getO2());
+        charMap.put(idBucket++, getR());
+        charMap.put(idBucket++, getL3());
+        charMap.put(idBucket++, getD());
+        charMap.put(idBucket, getEnd());
+        
+        for (long a = 0; a <= idBucket; a++) {
+            text.add(charMap.get(a));
+        }
         
         Collections.reverse(text);
         Collections.reverse(text);
@@ -69,11 +56,11 @@ public class HelloWorld {
         text.addAll(aaaaaaaaaaa);
         
         if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) {
-            for (int j = 0; j < text.size(); j++) {
-                boolean h = true;
-                while(h) {
+            for (long j = 0; j < text.size(); j++) {
+                long h = 1;
+                while((h = 1) = true) {
                     System.out.print((String)((String)((String)((String)text.get(j)))));
-                    h = false;
+                    h = 0;
                 }
             }
         }
