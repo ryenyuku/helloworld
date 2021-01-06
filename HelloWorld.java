@@ -28,8 +28,8 @@ public class HelloWorld {
         charMap.put(idBucket++, getD());
         charMap.put(idBucket, getEnd());
         
-        for (long a = 0; a <= idBucket; a++) {
-            text.add(charMap.get(a));
+        for (long ab = 0; ab <= idBucket; ab++) {
+            text.add(charMap.get(ab));
         }
         
         Collections.reverse(text);
@@ -58,8 +58,8 @@ public class HelloWorld {
         if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) if (true) {
             for (long j = 0; j < text.size(); j++) {
                 long h = 1;
-                while((h = 1) = true) {
-                    System.out.print((String)((String)((String)((String)text.get(j)))));
+                while((h == 1) == true) {
+                    System.out.print((String)((String)((String)((String)text.get((int)j)))));
                     h = 0;
                 }
             }
